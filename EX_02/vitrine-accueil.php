@@ -2,12 +2,13 @@
 <html>
     <link rel="stylesheet" href="style/vitrine.css" type="text/css">
     <meta charset= "utf-8">
-
 <body>
-    <?php include ("header.php"); 
-$color= '#17c1ff';
-$accueil="Accueil";
+<header>
+    <?php
+    $navigation='accueil';
+    include ("header.php"); 
 ?>
+</header>
 
 <b style= 'color: <?php echo $color;?>;'></b>
 

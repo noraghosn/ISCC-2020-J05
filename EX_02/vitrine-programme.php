@@ -3,7 +3,12 @@
     <link rel="stylesheet" href="style/vitrine.css" type="text/css">
     <meta charset= "utf-8">
 <body>
-    <?php include ("header.php"); ?>
+<header>
+    <?php
+    $navigation='programme';
+    include ("header.php"); 
+?>
+</header>
     
 
         <main>
